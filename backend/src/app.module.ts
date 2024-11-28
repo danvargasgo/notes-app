@@ -12,7 +12,7 @@ import { ConfigModule } from '@nestjs/config';
     SequelizeModule.forRoot({
       dialect: 'postgres',
       host: 'database-1.ctmci6uw2i6p.us-east-1.rds.amazonaws.com',
-      port: parseInt(process.env.DB_PORT, 10),
+      port: 5432,
       username: 'postgres',
       password: 'ANAYche75*',
       database: 'notes',
