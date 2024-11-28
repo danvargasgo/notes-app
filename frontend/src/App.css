@@ -1,0 +1,89 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+h2 {
+  color: #495057;
+}
+
+.mb-3 input,
+.mb-3 select {
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-danger,
+.btn-warning {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+button.btn-primary {
+  padding: 8px 16px;
+  margin-left: 80%;
+}
+
+.login {
+  margin-left: 0 !important;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.add-note {
+  margin-left: 40% !important;
+  width: 20%;
+}
+
+.my-form {
+  padding-inline: 10%;
+}
+
+nav button {
+  border-radius: 20px;
+  width: 100px;
+}
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #f1f3f5;
+  border-radius: 10px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-list .btn {
+  margin-right: 5px;
+}
