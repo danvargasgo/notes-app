@@ -45,34 +45,34 @@ This application allows users to:
 git clone https://github.com/ensolvers-github-challenges/Vargas-750295
 
 ### Frontend Setup:
-cd frontend
+cd frontend<br/>
 npm install
 
 ### Backend Setup:
-cd backend
+cd backend<br/>
 npm install
 
 ## Running the Application
 ### Linux/macOS Setup Script:
 Run the provided setup script to start both frontend and backend:
-./start.sh
+sh start.sh
 
 ### Manual Start:
 Backend:
 1. Set environment variables (see .env.example).
 2. Run the server:
-cd backend
+cd backend <br/>
 npm start
 
 Frontend:
-1. Ensure the backend URL is correctly set in frontend/src/config.js.
+1. Ensure the backend URL is correctly set in frontend/src/config.js. 
 2. Start the React app:
-cd frontend
+cd frontend<br/>
 npm start
 
 ## Default Login Credentials
-Username: admin
+Username: admin<br/>
 Password: password
 
 ## 🌐 Live Deployment
-Access the live version here: 
+Access the live version here: https://notes-app-9vvv.vercel.app/
